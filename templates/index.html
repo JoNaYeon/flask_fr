@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Test Web</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <main class="container">
+        <h1>Flask Test Web</h1>
+        <p class="subtitle">간단한 Flask 테스트 페이지입니다. <a href="{{ url_for('main.items_page') }}">Items 보기 →</a></p>
+
+        <section class="card">
+            <h2>Ping 테스트</h2>
+            <button id="ping-btn" type="button">/api/ping 호출</button>
+            <pre id="ping-result">결과가 여기 표시됩니다.</pre>
+        </section>
+
+        <section class="card">
+            <h2>Echo 테스트</h2>
+            <input id="echo-input" type="text" placeholder="메시지를 입력하세요">
+            <button id="echo-btn" type="button">/api/echo 호출</button>
+            <pre id="echo-result">결과가 여기 표시됩니다.</pre>
+        </section>
+    </main>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

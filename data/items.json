@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "사과",
+        "category": "과일",
+        "price": 1500
+    },
+    {
+        "id": 2,
+        "name": "바나나",
+        "category": "과일",
+        "price": 800
+    },
+    {
+        "id": 3,
+        "name": "당근",
+        "category": "채소",
+        "price": 1200
+    },
+    {
+        "id": 4,
+        "name": "우유",
+        "category": "유제품",
+        "price": 2500
+    },
+    {
+        "id": 5,
+        "name": "식빵",
+        "category": "베이커리",
+        "price": 3000
+    }
+]
